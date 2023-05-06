@@ -1,0 +1,29 @@
+.showbox {
+	BORDER-BOTTOM: #1dd 0px solid;
+	BORDER-LEFT: #1dd 0px solid;
+	MARGIN-LEFT: 0px;
+	margin-top: 0px;
+	VERTICAL-ALIGN: middle;
+	BORDER-TOP: #1dd 0px solid;
+	BORDER-RIGHT: #1dd 0px solid;
+}
+
+.showbox .abgne-block-20120106 {
+	MARGIN-TOP: 5px;
+	MARGIN-LEFT: 0px;
+	OVERFLOW: hidden;
+	width: 100%;
+}
+.showbox .abgne-block-20120106 A {
+	MARGIN-RIGHT: 0px
+}
+.showbox .abgne-block-20120106 A IMG {
+	BORDER-BOTTOM: #1dd 0px solid;
+	BORDER-LEFT: #1dd 0px solid;
+	VERTICAL-ALIGN: middle;
+	BORDER-TOP: #1dd 0px solid;
+	BORDER-RIGHT: #1dd 0px solid;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 2px;
+}

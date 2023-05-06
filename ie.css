@@ -1,0 +1,194 @@
+a:visited {
+	color: #8B7354;
+	text-decoration: none;
+	font-size: 13px;
+}
+a:link {
+	color: #8B7354;
+	text-decoration: none;
+	font-size: 13px;
+}
+a:hover {
+	color: #FFCC99;
+	text-decoration: underline;
+	font-size: 13px;
+}
+.scrollcolor{
+	SCROLLBAR-FACE-COLOR: #063;/*內頁上底圖*/
+	SCROLLBAR-HIGHLIGHT-COLOR: #F00;
+	OVERFLOW: auto;
+	SCROLLBAR-SHADOW-COLOR: green;
+	SCROLLBAR-3DLIGHT-COLOR: #099;
+	SCROLLBAR-ARROW-COLOR: #630;
+	SCROLLBAR-DARKSHADOW-COLOR: #069;
+}
+.scrollcolor1{
+SCROLLBAR-ARROW-COLOR: #d8d8d8;
+ SCROLLBAR-FACE-COLOR: #909090;
+ SCROLLBAR-DARKSHADOW-COLOR: #000000;
+ SCROLLBAR-HIGHLIGHT-COLOR: #6c486c;
+ SCROLLBAR-SHADOW-COLOR: #d8d8d8;
+ SCROLLBAR-TRACK-COLOR: #d8d8d8;
+ SCROLLBAR-3DLIGHT-COLOR: #b4b4b4
+}
+.nobox {
+	border: 1px dashed #FEFDE1;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+a img { border-style:none;}
+.news a:visited {  color: #5B1E00; text-decoration: none}
+.news a:link {  color: #5B1E00; text-decoration: none}
+.news a:hover {  color: #003399; text-decoration: underline}
+.nobox {
+	border: 1px dashed #FEFDE1;
+}
+.telfont {
+	font-size: 12px;
+	color: #0f0f0f;
+	line-height: 16px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.rolink a:visited {
+	font-size: 15px;
+	color: #FFFFFF;
+	text-decoration: none
+}
+.rolink a:link {
+	font-size: 15px;
+	color: #FFFFFF;
+	text-decoration: none
+}
+.rolink a:hover {
+	font-size: 15px;
+	color: #FFFF33;
+	text-decoration: underline
+}
+.nobox {
+	border: 1px dashed #FEFDE1;
+}
+.redfont {
+	font-size: 13px;
+	color: #FF0000;
+}
+.payfont {
+	font-size: 13px;
+	color: #FF0000;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.abfont {
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+}
+.abfont1 {
+	font-size: 13px;
+	line-height: 20px;
+	color: #663300;
+}
+.scefont {
+	font-size: 13px;
+	line-height: 22px;
+	color: #630;
+}
+.facilityfont {
+	font-size: 13px;
+	line-height: 22px;
+	color: #FFF;
+}
+.remittancefont {
+	font-size: 13px;
+	line-height: 22px;
+	color: #FFF;
+}
+.newstitle{
+	font-size: 13px;
+	line-height: 22px;
+	color: #03F;
+}
+
+.bbsfont{
+	font-size: 13px;
+	line-height: 22px;
+	color: #000;
+}
+.tourfont {
+	font-size: 13px;
+	line-height: 22px;
+	color: #C60;
+}
+.notefont1 {
+	font-size: 13px;
+	line-height: 22px;
+	color: #333;
+}
+.notefont2 {
+	font-size: 13px;
+	line-height: 22px;
+	color: #333;
+}
+.notefont3 {
+	font-size: 13px;
+	line-height: 22px;
+	color: #333;
+}
+.notefont4 {
+	font-size: 13px;
+	line-height: 22px;
+	color: #FCF;
+}
+.newstitle{
+	font-size: 13px;
+	line-height: 22px;
+	color: #03F;
+}
+
+.bbsfont{
+	font-size: 13px;
+	line-height: 22px;
+	color: #000;
+}
+.newbk {
+	background-image: url(images/news_02.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.roline {
+	font-size: 13px;
+	line-height: 19px;
+	color: #630;
+
+}
+/*內頁上底圖*/
+.index1_up {
+	background-image: url(images/indexbk_01.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.index1_mid {
+	background-image: url(images/indexbk_02.jpg);
+	background-repeat: repeat-y;
+	background-position: center;
+
+}
+.index1_down {
+	background: url(images/index.jpg) no-repeat center bottom;
+}
+.ibk {
+	background-image: url(images/ibk.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.zengheifont {
+	font-size: 15px;
+	line-height: 40px;
+	font-weight:bold;
+	font-family: Microsoft JhengHei;
+  	src: local("Microsoft JhengHei");
+	color: #FFFFF;
+}
