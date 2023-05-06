@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>【窩心&#12398;家】官網｜民宿｜宜蘭蘇澳｜</title>
+<meta name="keywords" content="宜蘭民宿-窩心の家官方網站">
+<meta name="description" content="窩心の家位於宜蘭縣蘇澳交流道近郊，周邊有許多適合大小朋友的觀光工廠、景點及宜蘭傳統藝術中心，是親子出遊的最佳首選。">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+<meta name="description" content="">
+<!--<meta property="og:image" content="https://obxytbd9arbovaf9znixxg.on.drv.tw/www.sweethome.tw/image/dex3.jpg">-->
+
+<!--og ============================-->   
+<meta property="og:locale" content="zh_tw">
+<meta property="og:type" content="website">
+<meta property="og:title" content="【窩心の家】官網｜推薦住宿｜宜蘭蘇澳民宿｜">
+<meta property="og:site_name" content=" 【窩心の家】官網｜推薦住宿｜宜蘭蘇澳民宿｜">
+<meta property="og:description" content="窩心の家位於宜蘭縣蘇澳交流道近郊，周邊有許多適合大小朋友的觀光工廠、景點及宜蘭傳統藝術中心，是親子出遊的最佳首選。">
+<meta property="og:image" content="http://sweethome.tw/image/dex3.jpg">
+<meta property="og:image:width" content="500">
+<meta property="og:image:height" content="375">
+<meta property="og:url" content="http://sweethome.tw/">
+	
+<!-- 網頁 icon -->
+<link  rel="shortcut icon" href="image/sweeticon.ico">
+<link rel="icon" href="image/sweeticon.ico">
+	
+<!--<link href="ie.css" rel="stylesheet" type="text/css">-->
+<!--<link href="room.css" rel="stylesheet" type="text/css">-->
+<link href="xz_style.css" rel="stylesheet" type="text/css">
+<link href="pages.css" rel="stylesheet" type="text/css">
+<link href="all.css" rel="stylesheet" type="text/css">
+<!--<script type="text/javascript" src="room.js"></script>-->
+<script type="text/javascript" src="all.js"></script>
+<!--<script type="text/javascript" src="jquery-2.1.4.min_xz.js"></script>-->
+<!--<script type="text/javascript" charset="UTF-8" src="xz_javascript.js"></script>-->
+<script type="text/javascript" src="jquery-latest.min.js"></script>
+</head>
+	
+<body>
+<style type="text/css">
+body {
+	background-color: #EEC0C0;
+}
+
+</style>
+
+<!--  phoneBox ============================-->
+<a class="logoB" href="./hello.html">
+<div class="logo" style="background-image: url(image/LOGO.png); width:130px;"> </div>
+</a>
+<div class="phoneBox">
+<!--<a href="./room.html" target="_blank"><div class="bookingBox">ONLINE 預約</div></a>-->
+<div class="bars"><i class="fa-solid fa-bars" style="top: 12px ; color: #FFFFFF;"></i></div>
+</div>
+	
+<script>
+
+var  ww = $(window).width();
+	 if(ww < 450){
+	   $('header').removeClass('headerW');
+   }
+
+  $(window).resize(function(){
+		 var  ww = $(window).width();
+
+	 if(ww < 450){
+	   $('header').removeClass('headerW');
+   }
+  })
+</script>
+	
+
+<!--  header ============================-->
+<script>
+/*headerW header 白色背景*/
+
+$(window).scroll(function () {
+	var wWidth = $(window).width();
+	var scrollH = $(window).scrollTop();
+	if(wWidth>455){
+			/**/
+		if (scrollH > 500) {
+			$('header').addClass('headerW');
+			$('.goTop').css({
+				'bottom': 0
+			});
+			}
+		else {
+			$('header').removeClass('headerW');
+			$('.goTop').css({
+				'bottom': '-80px'
+			});
+			}
+	/**/
+	   }
+
+})
+</script>
+
+<header>
+	<a class="logoA" href="./hello.html">
+	<div class="logo" style="background-image: url(image/logo.png); top:-1px;"> </div></a>
+     <nav>
+       <ul>
+         	<li><a href="hello.html">關於我們</a></li>
+			<li><a href="room.html">客房介紹</a></li>
+			<li><a href="note.html">訂房資訊</a></li>
+			<li><a href="https://www.facebook.com/yilan.sweethome/" target="_blank">最新消息</a></li>
+			<li><a href="https://line.me/ti/p/~0925076158" target="_blank">Line訂房</a></li>
+			<li><a href="https://booking.owlting.com/sweethome" target="_blank">線上訂房</a></li>
+
+       </ul>
+     </nav>
+</header>
+	
+<!-- 封面照片 ============================ -->
+<div class="jumbo2 imgCenter" style="background-image: url(image/new/roomtitle_302.jpg);"></div>
+
+<!-- 房間照片 ============================ -->
+<script>
+	// JavaScript Document
+
+	$(function(){
+		// 用來顯示大圖片用
+		var $block = $('.abgne-block-20120106'), 
+			$a = $block.find('a'), 
+			$showImage = $('#show-image');
+		
+		// 當滑鼠移到 .abgne-block-20120106 中的某一個超連結時
+		$a.mouseover(function(){
+			var $this = $(this).addClass('on').siblings('.on').removeClass('on').end(), _src = $this.attr('href');
+			// 如果現在大圖跟目前要顯示的圖不是同一張時
+			if($showImage.attr('src') != _src){
+				$showImage.hide().attr('src', _src).stop(false, true).fadeTo(400, 1);
+			}
+			return false;
+		}).click(function(){
+			// 如果超連結被點擊時, 取消連結動作
+			return false;
+		});
+		
+		$showImage.add($a).hover(function(){
+			// 當滑鼠移入時, 停止計時器
+			clearTimeout(timer);
+		}, function(){
+			// 當滑鼠移出時, 啟動計時器
+			timer = setTimeout(auto, speed);
+		});
+		
+		// 用 speed 表示切換輪播的速度
+		var timer, speed = 3000;
+		
+		// 用來自動輪播使用
+		function auto(){
+			var _index = $a.filter('.on').index();
+			_index = (_index + 1) % $a.length;
+			$a.eq(_index).mouseover();
+			timer = setTimeout(auto, speed);
+		}
+		
+		// 啟動計時器
+		timer = setTimeout(auto, speed);
+	});
+
+</script>
+
+<div class="showbox" style="text-align: center;top:50px;margin-bottom: 50px;"><img src="./image/room11.jpg" width="1000" height="586" alt="" id="show-image">
+		<div class="abgne-block-20120106" style="text-align: center;">
+			<a href="./image/room11.jpg" class="on"><img src="./image/room1s1.jpg" width="172" height="63" alt=""></a>
+			<a href="./image/room12.jpg"><img src="./image/room1s2.jpg" width="172" height="63" alt=""></a>
+			<a href="./image/room12.jpg"><img src="./image/room1s3.jpg" width="172" height="63" alt=""></a>
+			<a href="./image/room14.jpg"><img src="./image/room1s4.jpg" width="172" height="63" alt=""></a></div>
+</div>
+
+<style>
+	@media (max-width:500px){
+		.showbox #show-image{
+			width: 400px;
+			height: 234px;
+		}
+		.showbox img{
+			width:88px;
+			height:33px;
+			
+		}
+    }
+</style>
+	
+<style>
+    @media (min-width:500px){
+   .stayWrap2 .stay2 .stayRight{
+        float:left;
+    }
+  .stayWrap2 .stay2 .stayLeft{
+        float:right;
+    }
+    }
+</style>
+
+<div class="stayWrap3">
+<div class="stay">
+  <div class="stayLeft stayFloat">
+	<img src="image/rt_01.png" width="331" height="67" alt=""/>
+	<table width="300" border="0" align="center" cellpadding="0" cellspacing="2" bordercolor="#9F9F9E" class="roline" ><br>
+    <tbody  style="font-size: .85em;font-family: 'Cormorant Unicase', serif;">
+		<tr>
+		  <td width="140" align="center" bgcolor="#965454" >&nbsp;</td>
+		  <td width="80" align="center" bgcolor="#965454" style="color:#FFFFFF;">平日</td>
+		  <td width="80" align="center" bgcolor="#965454" style="color:#FFFFFF;">假日</td>
+		  <td width="80" align="center" bgcolor="#965454" style="color:#FFFFFF;">定價</td>
+		</tr>
+		<tr>
+		  <td align="center" bgcolor="#e0cdcf">雙人套房</td>
+		  <td align="center" bgcolor="#e0cdcf">2,000</td>
+		  <td align="center" bgcolor="#e0cdcf">2,200</td>
+		  <td align="center" bgcolor="#e0cdcf">3,800</td>
+		</tr>
+		<!--<tr>
+		  <td align="center" bgcolor="#c1cbd7">10人包棟</td>
+		  <td align="center" bgcolor="#c1cbd7">12,000</td>
+		  <td align="center" bgcolor="#c1cbd7">14,800</td>
+		  <td align="center" bgcolor="#c1cbd7">18,800</td>
+		</tr>-->
+		<tr>
+		  <td align="center" bgcolor="#e0cdcf">14人包棟</td>
+		  <td align="center" bgcolor="#e0cdcf">13,800</td>
+		  <td align="center" bgcolor="#e0cdcf">16,800</td>
+		  <td align="center" bgcolor="#e0cdcf">22,800</td>
+		</tr>
+		 <!--<tr>
+		  <td align="center" bgcolor="#e0cdcf">加床(床墊)</td>
+		  <td align="center" bgcolor="#e0cdcf" colspan="3">此房型恕不提供加床服務</td>
+
+		</tr>-->
+    </tbody>
+  </table>
+	  <span  style="font-size: .85em;font-family: 'Cormorant Unicase', serif;">
+	■ 平　日：週日~週五<br>
+	■ 假　日：星期六、連續假日前一天、國定假日、寒暑假期間<br>
+	■ 定　價：農曆春節期間<br>
+	■ 包　棟以14人為基準，每增加一人收費$1,000元<br></span>
+	</div>
+	
+	<div class="stayRight stayFloat" style="top:-35px">
+	<div class="roomIntro">
+	<img src="image/rt_02.png" width="325" height="67" alt=""/><br>	
+	</div>
+	<div class="roomInfo" style="text-align: left;width: 400px;">
+	<span>‧　分離式冷氣<br>
+	‧　42吋液晶電視<br>
+	‧　飯店等級高級獨立筒床墊<br>
+	‧　飯店級被套組<br>
+	‧　房內冰箱<br>
+	‧　乾濕分離衛浴設備<br></span>
+	</div></div>
+	</div></div>
+<div class="clear"></div>
+<div style="display: inline-flex; width:100%;">
+<a href="room.html" class="roomBooking" target="_self" id="div1"><i class="fas fa-chevron-left"></i>回前頁</a>
+<a href="https://booking.owlting.com/sweethome" class="roomBooking" target="_blank" id="div2">線上訂房<i class="fas fa-chevron-right"></i></a> 
+</div>
+<!-- shopInfo ============================ -->
+<div class="shopInfo" style="top:-150px;">
+   <table><tbody><tr>
+		<td>民宿位址</td>
+	   		<td><a href="https://goo.gl/maps/soBbEJkdqzqNV1bk7" target="_blank" class="colorl" style="color:#000000">宜蘭縣蘇澳鎮城東路238號</a></td>
+	   </tr>
+		<tr>
+			<td>訂房專線</td>
+	 		<td> <div class="colorl" onclick="location.href=&#39;tel:0935141857&#39;" style="color: #000000">0935141857　陳小姐</div></td>
+		</tr>
+	   	<tr>
+			<td>EMAIL</td>
+	 		<td><a class="colorl" href="mailto:a0935141857@gmail.com" style="color: #000000">a0935141857@gmail.com</a></td>
+		</tr>
+		<tr>
+			<td>LINE</td>
+	   		<td><a href="https://line.me/ti/p/~0925076158" target="_blank" class="colorl" style="color: #000000">0925076158</a></td>
+		</tr>
+		<tr>
+			<td>合法編號</td>
+	   		<td>宜蘭縣民宿2341號</td>
+		</tr>
+	  </tbody></table></div>
+             	
+<!--  go to top ============================-->
+ 
+<div class="goTop" style="bottom: -80px;">
+	<div class="goToplogo" ><i class="fa-solid fa-chevron-up"></i></div>
+	<div class="goText">GO TO TOP</div>
+</div>
+
+<!-- follow us ============================ -->
+<footer>
+	<div class="follow">
+		<h3><i><b>👀 CONTACT US 👀</b></i></h3>
+		
+		<div class="social">
+
+			<div class="socialIn" onclick="location.href=&#39;tel:0935141857&#39;"><i class="fas fa-phone-square"></i><span><br>PHONE</span></div>
+
+			<a target="_blank" href="https://www.facebook.com/yilan.sweethome" class="colorB"> <div class="socialIn social1"><i class="fab fa-facebook"></i><span><br>FACEBOOK</span></div></a>
+
+			<a href="https://line.me/ti/p/~0925076158" target="_blank" class="colorB"> <div class="socialIn social2"><i class="fab fa-line"></i><span><br>LINE</span></div></a>
+
+			<a target="_blank" href="https://goo.gl/maps/soBbEJkdqzqNV1bk7" class="colorB"> <div class="socialIn social2"><i class="fa-solid fa-map-location-dot"></i><span><br>Google Maps</span></div></a>
+		</div>
+	</div>
+<div class="copyRight">COPYRIGHT © All Rights Reserved. <a href="https://www.sweethome.tw/" class="co">窩心&#12398;家民宿</a></div>
+</footer>
+
+<!--js code-->
+
+<script src="./xz_javascript.js"></script>
+<script src="hello.html" async="" defer=""></script>
+
+
+</body></html>
